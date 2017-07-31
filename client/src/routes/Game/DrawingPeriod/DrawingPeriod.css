@@ -1,0 +1,61 @@
+.acting-period-bg {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.colors-container {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.colors-container .selected {
+  opacity: 0.5;
+}
+.misc-container {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+.misc-container .misc-btn {
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #bdc3c7;
+  font-size: 24px;
+}
+.misc-container .selected {
+  color: #06D6A0;
+}
+.red {
+  background-color: #e74c3c;
+}
+.orange {
+  background-color: #e67e22;
+}
+.yellow {
+  background-color: #f1c40f;
+}
+.green {
+  background-color: #2ecc71;
+}
+.blue {
+  background-color: #3498db;
+}
+.purple {
+  background-color: #9b59b6;
+}
+.black {
+  background-color: black;
+}

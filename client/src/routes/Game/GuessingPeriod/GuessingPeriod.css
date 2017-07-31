@@ -1,0 +1,39 @@
+.guessing-period-bg {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.guess-container {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guess-input {
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  font-size: 24px;
+  width: 250px;
+}
+.guess-input::-webkit-input-placeholder {
+  color: black !important;
+}
+
+.guess-input:-moz-placeholder { /* Firefox 18- */
+color: black !important;
+}
+
+.guess-input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;
+}
+
+.guess-input:-ms-input-placeholder {
+color: black !important;
+}
